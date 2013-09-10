@@ -1,4 +1,4 @@
 Fashmeee
 ========
 
-server
+A server for fashion district
