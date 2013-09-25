@@ -11,8 +11,8 @@
 		      <a class="brand" href="#">UTA Home Page</a>
 		      <div class="nav-collapse">
 		        <ul class="nav">
-		          <li class="active"><a href="index.html"><i class="icon-home"></i>Home</a></li>
-		          <li><a href="#">About UTA</a></li>
+		          <li class="active"><a href="index.html">Home</a></li>
+		          <li class="active"><a href="#">About UTA</a></li>
 		            <li class="dropdown">
 		            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Officers <b class="caret"></b></a>
 		            <ul class="dropdown-menu">
@@ -38,7 +38,7 @@
 		            </ul>
 		          </li>
 		          <li class="dropdown">
-		            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-signal"></i>GALLERY <b class="caret"></b></a>
+		            <a href="#" class="dropdown-toggle" data-toggle="dropdown">GALLERY <b class="caret"></b></a>
 		            <ul class="dropdown-menu">
 		              <li><a href="#">EVENT1</a></li>
 		              <li><a href="#">EVENT2</a></li>
@@ -53,7 +53,7 @@
 		       	 <ul class="nav pull-right">
 		          <li class="divider-vertical"></li>
 		          <li class="dropdown">
-		            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-envelope">CONTACT US <b class="caret"></b></a>
+		            <a href="#" class="dropdown-toggle" data-toggle="dropdown">CONTACT US <b class="caret"></b></a>
 		            <ul class="dropdown-menu">
 		              <li><a href="#">EMAIL</a></li>
 		              <li><a href="#">IN PERSON</a></li>
