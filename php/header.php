@@ -8,10 +8,10 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </a>
-		      <a class="brand" href="#"><i class="icon-home"></i>UTA Home Page</a>
+		      <a class="brand" href="#">UTA Home Page</a>
 		      <div class="nav-collapse">
 		        <ul class="nav">
-		          <li class="active"><i class="icon-home"><a href="index.html">Home</a></li>
+		          <li class="active"><a href="index.html"><i class="icon-home"></i>Home</a></li>
 		          <li><a href="#">About UTA</a></li>
 		            <li class="dropdown">
 		            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Officers <b class="caret"></b></a>
