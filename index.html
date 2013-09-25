@@ -46,16 +46,7 @@
 		window.attachEvent("onload", downloadJSAtOnload);
 		else window.onload = downloadJSAtOnload;
 		</script>
-		<script>
-	    window.onload = function(){
-	        /* corner case, jQuery failed */
-	        if(!window.jQuery){
-	            alert('jQuery not loaded');
-	        }else{
-	            /* call carousel js */
-	            $(document).ready(function(){
-	                $('.dropdown-toggle').dropdown(); });}}
-	    </script>
+
 	</head>
 	<body>
 
