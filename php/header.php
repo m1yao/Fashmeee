@@ -66,5 +66,6 @@
 		      </div><!-- /.nav-collapse -->
 		    </div>
 		  </div><!-- /navbar-inner -->
-		</div>'
+		</div>';
+	print 'hello';
 ?>
