@@ -3,8 +3,74 @@
 	<head>
 		<meta charset="utf-8">
 		<title>UTA</title>
+
+		<!-- load style sheet -->
+	    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+	    <link href="css/bootstrap.css" rel="stylesheet">
+	    <link href="css/frontPage.css" rel="stylesheet">
+	    <!-- end of load style sheet -->
+
+
+		<script src="js/jquery.js"></script>
+		<script type="text/javascript">
+		function downloadJSAtOnload() {
+		var element = document.createElement("script");
+		element.src = "js/bootstrap-dropdown.js";
+		document.body.appendChild(element);
+		}
+		if (window.addEventListener)
+		window.addEventListener("load", downloadJSAtOnload, false);
+		else if (window.attachEvent)
+		window.attachEvent("onload", downloadJSAtOnload);
+		else window.onload = downloadJSAtOnload;
+
+		function downloadJSAtOnload() {
+		var element = document.createElement("script");
+		element.src = "js/bootstrap-carousel.js";
+		document.body.appendChild(element);
+		}
+		if (window.addEventListener)
+		window.addEventListener("load", downloadJSAtOnload, false);
+		else if (window.attachEvent)
+		window.attachEvent("onload", downloadJSAtOnload);
+		else window.onload = downloadJSAtOnload;
+
+		function downloadJSAtOnload() {
+		var element = document.createElement("script");
+		element.src = "js/bootstrap.min.js";
+		document.body.appendChild(element);
+		}
+		if (window.addEventListener)
+		window.addEventListener("load", downloadJSAtOnload, false);
+		else if (window.attachEvent)
+		window.attachEvent("onload", downloadJSAtOnload);
+		else window.onload = downloadJSAtOnload;
+		</script>
+
+
+    
+    <script src="js/bootstrap.min.js"></script>
+	<script>
+    window.onload = function()
+    {
+        /* corner case, jQuery failed */
+        if(!window.jQuery)
+        {
+            alert('jQuery not loaded');
+        }
+        else
+        {
+            /* call carousel js */
+            $(document).ready(function(){
+                $('.dropdown-toggle').dropdown();
+                $('#myCarousel').carousel();
+            });
+        }
+    }
+    </script>
 	</head>
 	<body>
+<<<<<<< HEAD
 	<script type="text/javascript">
 		function downloadJSAtOnload() {
 		var element = document.createElement("script");
@@ -72,6 +138,11 @@
 		    </div>
 		  </div><!-- /navbar-inner -->
 		</div>'
+=======
+		<?php require 'php/header.php'; ?>
+
+		
+>>>>>>> master
 
 	</body>
 </html>
